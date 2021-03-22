@@ -1,99 +1,65 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Portfolio | Violet Pickard</title>
-
-  <!-- Bootstrap Stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio | Violet Pickard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand" href="index.html" id="logo">Your Name</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
+<body background="assets/images/background.png">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Violet Pickard</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a target = "_blank" href="https://github.com/vpickard707">Github</a></li>
+                    <li><a target = "_blank" href="https://www.linkedin.com/in/violetpickard ">LinkedIn</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://github.com/vpickard707">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/violetpickard/">LinkedIn</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>Portfolio</h1>
         </div>
-        <!-- /.container -->
-      </nav>
-      <!-- End of navbar -->
-
-  <!-- Start of container -->
-  <div class="container">
-    <main class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h1 class="block-header">Portfolio</h1>
-          <hr />
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-          </div>
-        </article>
-      </div>
     </main>
-  </div>
-  <!-- End of container -->
 
-  <!-- Start of footer -->
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright 2018 Your Name
-    </p>
-  </footer>
-  <!-- End of footer -->
-
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
-
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 s12">
+                    <div class="container">
+                        © 2020 Copyright Violet Pickard
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
